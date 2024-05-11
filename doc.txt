@@ -1,0 +1,25 @@
+Add Question {add title inside body}
+http://localhost:3000/questions/create 
+
+*******************************************************
+Add Option to a questions
+http://localhost:3000/options/663fe7ba67531b57e9e09c2a(questionID)
+add text,vote to the body 
+Don't need to add link_addvote, i have handeled dynamically.
+
+*******************************************************************
+Delete a option from question and options collection
+http://localhost:3000/options/questionID/optionID
+
+***********************************************************
+Increment Vote dynamically and update in database
+http://localhost:3000/options/optionID/vote
+
+***********************************************************
+Delete a Question
+http://localhost:3000/questions/questionID
+
+********************************************************
+get specific Question with all options
+http://localhost:3000/questions/questionID
+
